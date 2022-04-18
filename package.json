@@ -1,0 +1,8 @@
+{
+  "name": "tes",
+  "author": "buring <prostoprostor@gmail.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

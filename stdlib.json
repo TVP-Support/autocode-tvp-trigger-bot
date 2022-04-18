@@ -1,0 +1,40 @@
+{
+  "name": "buring/tes",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/button/interaction.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "add"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/selectmenu/includes.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "includes"
+      }
+    },
+    "functions/events/discord/message/selectmenu/ignoreCase.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "ignoreCase"
+      }
+    },
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "про-триггеры"
+      }
+    },
+    "functions/events/discord/message/create/prefix.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "+"
+      }
+    }
+  }
+}
